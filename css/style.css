@@ -6,8 +6,10 @@
 
 html {
   font-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
+/* colored container layout */
 .red-container {
   width: 100%;
   height: 100vh;
@@ -20,7 +22,15 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* .green-container {
+
+.footer-shoes-text {
+  color: yellow;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4em;
+}
+.green-container {
   width: 100%;
   height: 100vh;
   background-color: green;
@@ -30,5 +40,8 @@ html {
   width: 100%;
   height: 100vh;
   background-color: yellow;
-} */
+}
 
+.spot-text {
+  font-size: 4em;
+}
